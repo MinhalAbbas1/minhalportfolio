@@ -1,0 +1,96 @@
+body {
+    background-color: #543d32;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container h1 {
+    color: #fff;
+    font-size: 80px;
+}
+
+.container img {
+    padding: 50px;
+    width: 210px;
+    height: 210px;
+}
+
+.paragaragh p {
+    padding-left: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    gap: 550px;
+    padding-top: 80px;
+    padding-left: 60px;
+}
+
+.left-box input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    border-bottom: 1px solid rgb(160, 118, 118);;
+    background: transparent;
+}
+
+.left-box label {
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.left-box input {
+    color: #fff;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.box1 h3 {
+    color: rgb(160, 118, 118);
+}
+
+.box1 h4 {
+    color: #fff;
+    cursor: pointer;
+}
+
+.field {
+    display: flex;
+    margin-bottom: 18px;
+    gap: 10px;
+}
+
+.field .number {
+    color: rgb(160, 118, 118);
+}
+
+.field .number span {
+    border: 2px solid rgb(160, 118, 118);
+    border-radius: 30px;
+    padding: 1px 8px;
+    font-size: 13px;
+}
+.add{
+    padding-top: 30px;
+    color: rgb(160, 118, 118);
+    font-size: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.full-add{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+    display: flex;
+    gap: 15px;
+}
